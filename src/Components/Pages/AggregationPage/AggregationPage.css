@@ -1,0 +1,46 @@
+.AggregationPage {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  text-align: center;
+  direction: rtl;
+  background-image: linear-gradient(#30004F, #4F0069, #670078);
+  color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.AggregationPage .Aggregation-side-banner {
+  position: relative;
+}
+.AggregationPage .Aggregation-side-banner div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.AggregationPage .Aggregation-side-banner div span:nth-last-of-type(2) {
+  color: #C430A3;
+  font-size: 100px;
+  margin: 0% auto;
+}
+.AggregationPage .Aggregation-side-banner div span:nth-last-of-type(1) {
+  color: white;
+  font-size: 100px;
+  margin: 0% auto;
+}
+.AggregationPage .Aggregation-Categories {
+  position: relative;
+}
+.AggregationPage .Aggregation-Categories .Aggregation-Categories-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+  padding: 0%;
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}/*# sourceMappingURL=AggregationPage.css.map */

@@ -1,0 +1,52 @@
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 600px;
+  padding: 1rem 20px;
+  margin: 0% 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #ccc;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.ItemCard:hover {
+  box-shadow: 0 2px 3px #ccc;
+  transform: scale(1.05);
+}
+.ItemCard .ItemCard__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.ItemCard .ItemCard__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.ItemCard .ItemCard__price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.ItemCard .ItemCard__button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.ItemCard .ItemCard__button:hover {
+  background-color: #fff;
+  color: #000;
+}/*# sourceMappingURL=ItemCard.css.map */

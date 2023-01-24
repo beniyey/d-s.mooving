@@ -1,0 +1,36 @@
+Copy code Layout,
+.tab-container {
+  width: 400%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Layout-header {
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 0%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-container {
+  -moz-appearance: none;
+}
+
+.tab-container {
+  -ms-overflow-style: none;
+}
+
+.tab {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=Layout.css.map */

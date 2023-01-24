@@ -1,0 +1,15 @@
+.CategoryCard {
+  width: 150px;
+  position: relative;
+  height: 150px;
+  background-color: #C430A3;
+  text-align: center;
+}
+.CategoryCard p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=CategoryCard.css.map */

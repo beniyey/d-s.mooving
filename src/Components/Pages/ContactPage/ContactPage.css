@@ -1,0 +1,71 @@
+.ContactPage {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  text-align: center;
+  direction: rtl;
+  background-image: linear-gradient(#30004F, #4F0069, #670078);
+  color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ContactPage .contact-form {
+  text-align: right;
+  color: #4F0069;
+  position: relative;
+}
+.ContactPage .contact-form .contact-form-content {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 5%;
+}
+.ContactPage .contact-form .contact-form-content .form-send-button {
+  color: white;
+  background-color: #C430A3;
+  border: none;
+  border-radius: 34px;
+  width: 30%;
+  height: 40px;
+  font-size: 17px;
+  margin: 4% auto;
+  transition: 500ms;
+  cursor: pointer;
+}
+.ContactPage .contact-form .contact-form-content .form-send-button:hover {
+  color: #C430A3;
+  background-color: white;
+  transition: 500ms;
+  box-shadow: white 0px 0px 0px 5px;
+}
+.ContactPage .contact-form .contact-form-content h1 {
+  padding: 0%;
+  margin: 0%;
+}
+.ContactPage .contact-form .contact-form-content div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ContactPage .contact-form .contact-form-content div input {
+  width: 47%;
+  border-radius: 34px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #C430A3;
+  text-align: center;
+}
+.ContactPage .contact-form .contact-form-content div ::-moz-placeholder {
+  color: #C430A3;
+}
+.ContactPage .contact-form .contact-form-content div :-ms-input-placeholder {
+  color: #C430A3;
+}
+.ContactPage .contact-form .contact-form-content div ::placeholder {
+  color: #C430A3;
+}/*# sourceMappingURL=ContactPage.css.map */

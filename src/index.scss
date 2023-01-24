@@ -1,0 +1,30 @@
+body,
+#root,
+html {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.side-banner-container {
+    position: relative;
+
+    div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        span:nth-last-of-type(2) {
+            color: #C430A3;
+            font-size: 100px;
+            margin: 0% auto;
+        }
+
+        span:nth-last-of-type(1) {
+            color: white;
+            font-size: 100px;
+            margin: 0% auto;
+        }
+    }
+}
