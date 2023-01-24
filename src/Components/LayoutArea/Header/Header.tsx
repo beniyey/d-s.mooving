@@ -26,7 +26,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ['צור קשר', 'מחירים', 'קצת עלינו', 'דף הבית'];
+const navItems = [ 'דף הבית','קצת עלינו','מחירים','צור קשר'];
 let active: string[] = ['דף הבית'];
 
 export default function Header(props: Props) {
